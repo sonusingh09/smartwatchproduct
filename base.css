@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.head{
+    width: 100%;
+    background-color: #232f3e;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.head-logo{
+ 
+    width:120px;
+   
+}
+.watch{
+    
+    position: relative;
+}
+.watch-img{
+    height: 500px;
+    
+}
+.product-wrapper{
+    display: flex;
+    box-sizing: border-box;
+    
+
+}
+#time{
+    position: absolute;
+    top:224px;
+    left:175px;
+    color: white;
+    font-size: 34px;
+    font-weight: 550;
+}
+#rate{
+    position: absolute;
+    top:200px;
+    left:220px;
+    color:#fff;
+    /* z-index: 1; */
+    font-size: 40px;
+    text-align: center;
+    display: none;
+    animation: heart 1s ease 0s infinite  forwards;
+
+}
+#rate>i{
+    color:red;
+    font-size: 50px;
+
+}
+#rate>p{
+    margin-top: 0;
+}
+.content-head{
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 550;
+    margin-top: 30px;
+}
+.content-desc{
+    margin-top: 5px;
+    color: grey;
+    width: 80%;
+    letter-spacing: 0.5px;
+
+}
+#color-head{
+    color:black;
+    font-weight: 500;
+}
+.color-button{
+    height: 50px;
+    width: 80px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    outline: none;
+
+}
+#black{
+    
+    background-color: black;
+    
+}
+#purple{
+    background-color:  #8a5362;
+}
+#red{
+    background-color: #ca3d22;
+}
+#blue{
+    background-color: #565681;
+
+}
+#pink{
+    background-color: #e9c7be;
+
+}
+.buttons{
+    margin-right: 20px;
+    padding: 12px 36px;
+    border-radius: 8px;
+    background-color: lightgrey;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    border:none;
+    outline: none;
+    
+}
+#buy-now{
+    width: 150px;
+    padding: 18px;
+    margin-top: 20px;
+    background-color: orangered;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-top: 25px;
+    outline: none;
+    cursor: pointer;
+}
+@keyframes heart {
+    0% {
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
